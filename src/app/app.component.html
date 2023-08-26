@@ -1,0 +1,13 @@
+<!-- <h1>{{title}}</h1>
+<h2>{{ constantsValues.mainDescription }}</h2>
+<h2>
+  <ul *ngFor="let hook of constantsValues.lstOfHooks">
+    <li id="hook?.value">{{ hook.name }}</li>
+  </ul>
+</h2> -->
+
+<router-outlet></router-outlet>
+<ul class="nav navbar-nav">
+  <li><a [routerLink]="['child-component']">child-component</a></li>
+  <li><a [routerLink]="['parent-component']">parent-component</a></li>
+</ul>
