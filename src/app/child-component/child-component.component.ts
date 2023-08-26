@@ -11,8 +11,10 @@ export class ChildComponentComponent implements OnChanges {
   lifecyclehook: number = 0;
 
   ngOnChanges(changes: SimpleChanges): void {
-    console.log("Chile Component onChange");
+    console.log("Child Component onChange");
     this.lifecyclehook++;
   }
-
+  ngDoCheck(){
+    console.log("DO CHECK")
+  }
 }

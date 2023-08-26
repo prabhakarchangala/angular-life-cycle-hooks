@@ -10,5 +10,4 @@ export class AppComponent {
   title = 'angular-life-cycle-hooks';
   constantsValues = new Constants();
 
-
 }

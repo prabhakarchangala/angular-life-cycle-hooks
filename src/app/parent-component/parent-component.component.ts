@@ -19,5 +19,9 @@ export class ParentComponentComponent {
   sendTheNewValue(event:any){
     this.arbitraryData = event.target.value;
     }
+
+    DoCheckClick(){
+      console.log("Button Clicked...");
+    }
 }
 
